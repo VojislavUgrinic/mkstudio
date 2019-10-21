@@ -300,6 +300,10 @@ footer {
   color: #22ACCD
 }
 
+.kontakt iframe {
+  width: 100%;
+}
+
 form .btn-primary {
   background-color: #22ACCD;
   border: none;
