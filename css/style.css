@@ -74,7 +74,7 @@ body {
   }
   
   .caption h1 {
-    font-size: 3.8rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
@@ -82,7 +82,7 @@ body {
   }
   
   .caption h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1.6rem;
   }
@@ -242,7 +242,7 @@ footer {
   .onama img {
     width: 100%;
     border: 5px solid white;
-    border-radius: 1%;
+    border-radius: 2%;
   }
 
   .middle {
@@ -285,6 +285,11 @@ footer {
     text-align: justify;
   }
 
+  .misviz {
+    background-color: #fff;
+    border-radius: 2%;
+  }
+
   /** Kontakt **/
 
 .kontakt .fab {
@@ -316,7 +321,7 @@ form .btn-primary:hover {
 }
 
 .btn-link:hover {
-  color: ##505962;
+  color: #505962;
   text-decoration: none;
 }
 
@@ -355,12 +360,27 @@ form .btn-primary:hover {
   width: 80%;
 }
 
+.vizuelni-identitet {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .vizuelni-identitet p {
   font-size: 20px;
 }
 
+.izrada-web-sajta {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .izrada-web-sajta p {
   font-size: 20px;
+}
+
+.digitalni-marketing {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .digitalni-marketing p {
@@ -402,6 +422,11 @@ form .btn-primary:hover {
   transform: scale(1.4) rotate(15deg);
 }
 
+.zaštobašmi {
+  background-color: #fff;
+  padding: 50px 30px;
+}
+
 
 /* Media queries */
 
@@ -415,6 +440,55 @@ form .btn-primary:hover {
   .portfolio-section .image {
     flex: 50%;
   }
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+
+  .klijent img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #nav-item-last {
+    padding-left: 0px;
+  }
+  .vizuelni-identitet {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .izrada-web-sajta {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .digitalni-marketing {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .uslugestr p{
+    text-align: justify;
+  }
+  .uslugestr img {
+    margin-left: 10%;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -422,6 +496,3 @@ form .btn-primary:hover {
     flex: 100%;
   }
 }
-
-
-
