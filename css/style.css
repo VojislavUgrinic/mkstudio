@@ -99,7 +99,7 @@ body {
     border-width: medium;
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 5%;
   }
   .jumbotron {
@@ -173,30 +173,19 @@ body {
   margin-bottom: 40px;
 }
 
-.feature .fab {
-  color: #22ACCD;
-  padding-bottom: 20px;
+
+/*-- Zasto baš mi --*/
+
+.zaštobašmi {
+  background-color: #fff;
+  padding: 50px 30px;
 }
 
-.feature .fas {
-  color: #22ACCD;
-  padding-bottom: 20px;
-}
-
-.feature h3 {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  padding-bottom: .4rem;
-}
-
-.feature p {
-  font-size: 1.1rem;
-}
 
 /*-- Sta drugi kazu o nama --*/
 
 .klijent img {
-  width: 100%;
+  width: 80%;
   border-radius: 50%;
 }
 
@@ -255,14 +244,12 @@ footer {
     width: 100%;
     background-color: rgba(0,0,0, 0.8);
     color: #fff;
-    /*-- background: linear-gradient(90deg, #fff, #22ACCD, #fff); --*/
   }
 
   .inner-width {
-    width: 100%;
     max-width: 1200px;
     margin: auto;
-    display: flex;
+    display: flex; 
   }
 
   .col {
@@ -340,6 +327,9 @@ form .btn-primary:hover {
   text-decoration: none;
 }
 
+
+/** Usluge **/
+
 .uslugestr {
   background-color: #fff;
   padding: 50px 30px;
@@ -392,6 +382,7 @@ form .btn-primary:hover {
   font-size: 20px;
 }
 
+
 /* Portfolio */
 
 .portfolio-section {
@@ -427,10 +418,10 @@ form .btn-primary:hover {
   transform: scale(1.4) rotate(15deg);
 }
 
-.zaštobašmi {
-  background-color: #fff;
-  padding: 50px 30px;
-}
+
+
+
+
 
 
 /* Media queries */
@@ -466,9 +457,18 @@ form .btn-primary:hover {
   }
 
   .klijent img {
-    max-width: 50%;
+    max-width: 38%;
     display: block;
     margin: 0 auto;
+  }
+  .usluge .far {
+    margin-top: 40px;
+  }
+  .usluge .fas {
+    margin-top: 40px;
+  }
+  .btn-lg {
+    margin-bottom: 40px;
   }
 }
 
@@ -499,5 +499,27 @@ form .btn-primary:hover {
 @media screen and (max-width:480px) {
   .portfolio-section .image {
     flex: 100%;
+  }
+  .col {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  .num {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .caption {
+    top: 33%;
+  }
+  .caption h1 {
+    font-size: 2rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .caption h3 {
+    font-size: 1rem;
+    padding-bottom: 1.2rem;
   }
 }
